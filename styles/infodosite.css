@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #00295b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color: #172339;
+    padding: 20px;
+}
+
+.opcoes{
+    list-style: none;
+    color: white;
+    justify-content:center;
+    display: flex;
+    gap: 100px; /*espaçamento entre as opções*/
+    font-size: 20px;
+    
+
+}
+
+.link_home{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline block;
+    transition: background .4s;
+}
+
+.link_home:hover{
+
+    background-color: #00295b;
+    border-radius: 15px;
+
+}
+
+.link_contatos{
+    color:white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline block;
+    transition: background .4s;
+
+}
+.link_contatos:hover{
+
+    background-color: #00295b;
+    border-radius: 20px;
+}
+
+
+.cx_pesquisa{
+    display: flex;
+    position: absolute;
+    padding: 2px;
+    top: 33px;
+    right: 8%;
+    width: 160px;
+}
+
+.pesquisa{
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 2%;
+    width: 140px;
+    height: 20px;
+
+}
+
+.pesquisa:focus{
+    width: 10000px;
+    right: 10000px;
+    font-size: 15px;
+}
+
+#logo{
+display: absolute;
+    position: absolute;
+	top: 12px; /*orientação para o topo do menu*/
+    left: 75px;
+}
+
+.info_dados{
+    margin-top: 10px;
+display: absolute;
+position: relative;
+color: white;
+background-color: #172339;
+padding: 187px;
+top: 1px;
+}
+
+.t_dados{
+display: flex;
+position: relative;
+left: 180px;
+bottom: 100px;
+text-align: center;
+font-size: 30px;
+
+}
+
+.rodape{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    background-color: #172339;
+    padding: 10px;
+    gap: 10px;
+}
+
+.link_termos{
+    color: white;
+    position: relative;
+    font-size: 13px;
+    left: 10px;
+    top: 12px;
+    text-decoration: none;
+}
